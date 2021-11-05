@@ -25,6 +25,7 @@ Sleep(1000);
 
 if (answer == "N" || answer == "No" || answer == "no" || answer == "n") {
     cout << "That's too bad :(" << endl;
+    Sleep(1000);
     return 0;
 }
 else if (answer == "Y" || answer == "Yes" || answer == "yes" || answer == "y" || answer == "sure" || answer == "Sure") {
